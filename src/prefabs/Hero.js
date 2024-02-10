@@ -206,9 +206,9 @@ class CircularState extends State {
         hero.setVelocity(0)
         hero.anims.play("spin-attack").once("animationcomplete", ()=> {
             this.stateMachine.transition("idle")
-            scene.cameras.main.shake(150,0.005)
+            //scene.cameras.main.shake(150,0.005)
 
         })
-        //scene.cameras.main.shake(150,0.005)
+        scene.cameras.main.shake(150,0.005)
     }
 }
