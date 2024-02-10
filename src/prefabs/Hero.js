@@ -208,6 +208,6 @@ class CircularState extends State {
             scene.cameras.main.shake(150,0.005)
             this.stateMachine.transition("idle")
         })
-        scene.cameras.main.shake(150,0.005)
+        //scene.cameras.main.shake(150,0.005)
     }
 }
